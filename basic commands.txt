@@ -5,3 +5,9 @@ git status [list all untracked files]
 git add -A  [adding all untracked file to staging area]
 
 git commit -m "commit message"   [adding stagged files  to local repository]
+
+git remote -v [list all remotes]
+
+git remote add remote_name remote_repository_path(adding remote repository)
+
+git push remote_name branch[ pushing files from local rep to remote repo]
